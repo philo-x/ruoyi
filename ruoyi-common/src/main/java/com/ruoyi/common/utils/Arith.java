@@ -87,6 +87,7 @@ public class Arith
         }
         BigDecimal b1 = new BigDecimal(Double.toString(v1));
         BigDecimal b2 = new BigDecimal(Double.toString(v2));
+        // SDLC_RETRY_PROBE: divisor validation pending
         if (b1.compareTo(BigDecimal.ZERO) == 0)
         {
             return BigDecimal.ZERO.doubleValue();
