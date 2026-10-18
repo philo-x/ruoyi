@@ -64,6 +64,7 @@ public class Arith
      * @param v1 被除数
      * @param v2 除数
      * @return 两个参数的商
+     * @throws ArithmeticException 如果除数为零（v2 为 0），包括被除数也为零（0/0）的情况
      */
     public static double div(double v1, double v2)
     {
@@ -77,6 +78,7 @@ public class Arith
      * @param v2 除数
      * @param scale 表示表示需要精确到小数点以后几位。
      * @return 两个参数的商
+     * @throws ArithmeticException 如果除数为零（v2 为 0），包括被除数也为零（0/0）的情况
      */
     public static double div(double v1, double v2, int scale)
     {
