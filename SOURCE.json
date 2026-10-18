@@ -1,6 +1,6 @@
 {
-  "source_directory": "/Users/xuuyin/Dev/IdeaProjects/RuoYi-Vue-master",
   "source_file": "ruoyi-common/src/main/java/com/ruoyi/common/utils/Arith.java",
   "sha256": "ade4d307e3a6d25d6a97dc7585cc609760d41e1565fd8c4d94de2642fd24f36e",
-  "scope": "Extracted arithmetic utility only; not a full RuoYi application build."
+  "scope": "Extracted arithmetic utility only; not a full RuoYi application build.",
+  "source": "User-authorized RuoYi-Vue-master arithmetic component snapshot"
 }
